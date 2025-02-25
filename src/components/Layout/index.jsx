@@ -1,6 +1,6 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import MainSection from "./MainSection";
+import Footer from "../Footer";
+import Header from "../Header";
+import MainSection from "../MainSection";
 
 function Layout() {
   return (
