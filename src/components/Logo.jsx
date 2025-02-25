@@ -6,7 +6,7 @@ const Logo = () => {
       <img
         src={GlennLogo}
         alt="logo"
-        className="h-12 w-auto m-4 pl-6 cursor-pointer"
+        className="h-8 w-auto m-4 pl-6 cursor-pointer"
       />
     </div>
   );
