@@ -6,9 +6,9 @@ function About() {
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
           <div className="w-full md:w-1/2">
             <img
-              src="https://via.placeholder.com/500"
+              src="https://avatars.githubusercontent.com/u/128032061?v=4"
               alt="Placeholder"
-              className="rounded-lg"
+              className="rounded-full mx-auto max-h-64"
             />
           </div>
           <div className="w-full md:w-1/2">
