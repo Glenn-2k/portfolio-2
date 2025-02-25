@@ -1,7 +1,8 @@
 import "./App.css";
+import Layout from "./components/Layout";
 
 function App() {
-  return <h1 className="text-3xl font-bold text-center mt-10">My Portfolio</h1>;
+  return <Layout />;
 }
 
 export default App;
