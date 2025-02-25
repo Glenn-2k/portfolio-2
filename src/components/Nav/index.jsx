@@ -45,7 +45,7 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-16 left-0 bg-teal-950 w-full shadow-md flex flex-col items-center space-y-4 py-6">
+        <div className="absolute top-16 left-0 bg-slate-700 w-full shadow-md flex flex-col items-center space-y-4 py-6">
           <Link
             to="about"
             smooth={true}
