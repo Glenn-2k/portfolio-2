@@ -7,7 +7,7 @@ function About() {
           <div className="w-full md:w-1/2">
             <img
               src="https://avatars.githubusercontent.com/u/128032061?v=4"
-              alt="Placeholder"
+              alt="Image of me"
               className="rounded-full mx-auto max-h-64"
             />
           </div>
