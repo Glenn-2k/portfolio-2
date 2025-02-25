@@ -1,3 +1,6 @@
+import { FaCss3Alt, FaReact } from "react-icons/fa6";
+import { FaHtml5, FaJs } from "react-icons/fa6";
+
 function About() {
   return (
     <section id="about" className="bg-slate-800 text-white py-20">
@@ -22,6 +25,22 @@ function About() {
               libero condimentum nunc, ac luctus nunc nunc ac justo. Nullam
               consectetur, nunc nec ultricies tristique, nunc nunc
             </p>
+            <div className="flex gap-4">
+              <ul className="flex gap-4 text-3xl">
+                <li>
+                  <FaHtml5 />
+                </li>
+                <li>
+                  <FaCss3Alt />
+                </li>
+                <li>
+                  <FaJs />
+                </li>
+                <li>
+                  <FaReact />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
