@@ -1,5 +1,6 @@
 import { FaCss3Alt, FaReact } from "react-icons/fa6";
 import { FaHtml5, FaJs } from "react-icons/fa6";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
   return (
@@ -28,16 +29,19 @@ function About() {
             <div className="flex gap-4">
               <ul className="flex gap-4 text-3xl">
                 <li>
-                  <FaHtml5 />
+                  <FaHtml5 className="opacity-60  hover:opacity-100 hover:text-amber-800 transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaCss3Alt />
+                  <FaCss3Alt className="opacity-60  hover:opacity-100 transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaJs />
+                  <FaJs className="opacity-60  hover:opacity-100 transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaReact />
+                  <FaReact className="opacity-60  hover:opacity-100 transition-all ease-in-out " />
+                </li>
+                <li>
+                  <RiTailwindCssFill className="opacity-60  hover:opacity-100 transition-all ease-in-out " />
                 </li>
               </ul>
             </div>
