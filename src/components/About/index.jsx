@@ -4,7 +4,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
   return (
-    <section id="about" className="bg-slate-800 text-white py-10 rounded-2xl">
+    <section
+      id="about"
+      className="bg-slate-800 text-white w-full h-screen flex flex-col items-center justify-center"
+    >
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-bold text-center mb-8">Who am I?</h2>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -27,7 +30,7 @@ function About() {
               consectetur, nunc nec ultricies tristique, nunc nunc
             </p>
             <div className="flex justify-center">
-              <ul className="flex gap-4 text-3xl">
+              <ul className="flex pt-6 gap-4 text-3xl">
                 <li>
                   <FaHtml5 className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out " />
                 </li>
