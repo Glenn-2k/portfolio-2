@@ -4,8 +4,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 function About() {
   return (
-    <section id="about" className="bg-slate-800 text-white py-20">
-      <div className="container mx-auto px-4">
+    <section id="about" className="bg-slate-800 text-white py-10 rounded-2xl">
+      <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-bold text-center mb-8">Who am I?</h2>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
           <div className="w-full md:w-1/2">
