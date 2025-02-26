@@ -12,11 +12,11 @@ function About() {
             <img
               src="https://avatars.githubusercontent.com/u/128032061?v=4"
               alt="Image of me"
-              className="rounded-full mx-auto max-h-48"
+              className="rounded-full mx-auto max-w-3xs"
             />
           </div>
           <div className="w-full md:w-1/2">
-            <p className="mb-4">
+            <p className="mb-4 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               tincidunt, erat in sollicitudin fermentum, odio libero condimentum
               metus, et vehicula nunc nunc sit amet libero. Curabitur nec ex nec
@@ -26,22 +26,22 @@ function About() {
               libero condimentum nunc, ac luctus nunc nunc ac justo. Nullam
               consectetur, nunc nec ultricies tristique, nunc nunc
             </p>
-            <div className="flex gap-4 justify-center">
+            <div className="flex justify-center">
               <ul className="flex gap-4 text-3xl">
                 <li>
-                  <FaHtml5 className="opacity-60  hover:opacity-100 hover:text-[#E34F26] transition-all ease-in-out " />
+                  <FaHtml5 className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaCss3Alt className="opacity-60  hover:opacity-100 hover:text-[#1572B6] transition-all ease-in-out " />
+                  <FaCss3Alt className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#1572B6] transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaJs className="opacity-60  hover:opacity-100 hover:text-[#F7DF1E] transition-all ease-in-out " />
+                  <FaJs className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#F7DF1E] transition-all ease-in-out " />
                 </li>
                 <li>
-                  <FaReact className="opacity-60  hover:opacity-100 hover:text-[#61DAFB] transition-all ease-in-out " />
+                  <FaReact className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#61DAFB] transition-all ease-in-out " />
                 </li>
                 <li>
-                  <RiTailwindCssFill className="opacity-60  hover:opacity-100 hover:text-[#06B6D4] transition-all ease-in-out " />
+                  <RiTailwindCssFill className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#06B6D4] transition-all ease-in-out " />
                 </li>
               </ul>
             </div>
