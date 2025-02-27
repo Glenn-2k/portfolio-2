@@ -15,6 +15,7 @@ function Projects() {
             project="Biddable."
             description="Biddable. was made as to answer the task of creating a auction website for our semester project"
             liveUrl={"https://glennsp2.netlify.app/"}
+            repoUrl={"https://github.com/Glenn-2k/SP2"}
           />
           <Projectcard />
           <Projectcard />
