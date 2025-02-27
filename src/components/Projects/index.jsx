@@ -1,6 +1,7 @@
 import Projectcard from "../ProjectCard";
 import biddable from "../../assets/SP2Screen.png";
 import batcommerce from "../../assets/jsframeworks.png";
+import holidaze from "../../assets/pescreen.png";
 
 function Projects() {
   return (
@@ -28,12 +29,12 @@ function Projects() {
             repoUrl={"https://github.com/Glenn-2k/JS-Frameworks-CA"}
           />
           <Projectcard
-            image={biddable}
-            alt="Biddable project"
-            project="Biddable."
-            description="Biddable. was made as to answer the task of creating a auction website for our semester project"
-            liveUrl={"https://glennsp2.netlify.app/"}
-            repoUrl={"https://github.com/Glenn-2k/SP2"}
+            image={holidaze}
+            alt="Holidaze project"
+            project="Holidaze"
+            description="Holidaze was made for our final exam at FED at Noroff. The task was to create a website for a booking service"
+            liveUrl={"https://pe2-glenn.netlify.app/"}
+            repoUrl={"https://github.com/Glenn-2k/project-exam-2-glenn"}
           />
         </div>
       </div>
