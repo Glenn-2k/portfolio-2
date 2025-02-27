@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 Projectcard.propTypes = {
   project: PropTypes.string.isRequired,
@@ -18,16 +20,16 @@ function Projectcard({ project, image, description, liveUrl, repoUrl }) {
         <a
           href={liveUrl}
           target="blank"
-          className="text-gray-100 cursor-pointer capitalize"
+          className="text-gray-100 cursor-pointer capitalize text-xl"
         >
-          live link
+          <FaExternalLinkAlt className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
         </a>
         <a
           href={repoUrl}
           target="blank"
-          className="text-gray-100 cursor-pointer capitalize"
+          className="text-gray-100 cursor-pointer text-xl capitalize"
         >
-          Repo
+          <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
         </a>
       </div>
     </div>
