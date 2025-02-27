@@ -2,7 +2,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="bg-red-800 text-white h-screen w-full flex flex-col justify-center"
+      className="bg-slate-600 text-white h-screen w-full flex flex-col justify-center"
     >
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
