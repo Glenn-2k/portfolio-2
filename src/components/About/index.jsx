@@ -6,7 +6,7 @@ function About() {
   return (
     <section
       id="about"
-      className="bg-slate-800 text-white w-full h-screen flex flex-col items-center justify-center"
+      className="bg-slate-800 text-white w-full min-h-screen flex flex-col items-center justify-center"
     >
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-bold text-center mb-8">Who am I?</h2>
