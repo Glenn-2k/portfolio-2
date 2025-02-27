@@ -27,6 +27,11 @@ function Projects() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet.
             </p>
+            <div className="mt-4 flex justify-evenly w-full">
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+            </div>
           </div>
           <div className="hover:shadow-2xl transition ease-in-out rounded-2xl p-6 flex flex-col items-center text-center">
             <div className="w-full h-40 bg-red-500 rounded-lg mb-4"></div>
@@ -35,6 +40,11 @@ function Projects() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet.
             </p>
+            <div className="mt-4 flex justify-evenly w-full">
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+              <a className="text-gray-100 cursor-pointer">Repo</a>
+            </div>
           </div>
         </div>
       </div>
