@@ -1,4 +1,5 @@
 import About from "../About";
+import Contact from "../Contact";
 import Projects from "../Projects";
 
 function MainSection() {
@@ -6,6 +7,7 @@ function MainSection() {
     <div className="bg-slate-700">
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }
