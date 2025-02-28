@@ -21,25 +21,23 @@ function Contact() {
               Glenn.andre.kristiansen@gmail.com
             </a>
           </p>
-          <p className="text-center">
-            You can also find me on{" "}
-            <div className="flex text-3xl pt-4 justify-evenly">
-              <a
-                href="https://www.linkedin.com/in/glennkristiansen"
-                target="blank"
-                className="text-[#0A66C2]"
-              >
-                <FaLinkedin className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
-              </a>
-              <a
-                href="https://github.com/Glenn-2k"
-                target="blank"
-                className="text-[#F6F8FA]"
-              >
-                <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
-              </a>
-            </div>
-          </p>
+          <p className="text-center">You can also find me on </p>
+          <div className="flex text-3xl pt-4 justify-evenly">
+            <a
+              href="https://www.linkedin.com/in/glennkristiansen"
+              target="blank"
+              className="text-[#0A66C2]"
+            >
+              <FaLinkedin className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+            </a>
+            <a
+              href="https://github.com/Glenn-2k"
+              target="blank"
+              className="text-[#F6F8FA]"
+            >
+              <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+            </a>
+          </div>
         </div>
       </div>
     </section>

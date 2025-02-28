@@ -1,15 +1,35 @@
 import { FaCss3Alt, FaReact } from "react-icons/fa6";
 import { FaHtml5, FaJs } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { motion } from "framer-motion";
+
+const text =
+  "Hi there! My name is Glenn, and I'm a front-end developer. I have a passion for crafting beautiful and functional web experiences. Having completed my studies in Frontend Development at Noroff, I’ve built a good foundation in HTML, CSS, JavaScript, Tailwind, and React. I’m always eager to learn, explore new technologies, and take on exciting challenges. Below, you'll find some of my projects—each representing a step in my journey, as they were some of my school assignments. I'm currently looking for opportunities to bring my problem-solving skills to a team that values eagerness to learn. If you're looking for a dedicated front-end developer with a curious mindset, let’s connect!";
+
+const textVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.03 }, // Letters appear with delay
+  },
+};
+
+const letterVariants = {
+  hidden: { opacity: 0, y: 5 },
+  visible: { opacity: 1, y: 0 },
+};
 
 function About() {
   return (
-    <section
+    <motion.section
       id="about"
       className="bg-slate-800 text-white w-full min-h-screen flex flex-col items-center justify-center"
+      initial="hidden"
+      animate="visible"
+      transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className="container mx-auto px-4 ">
-        <h2 className="text-3xl  tracking-wider font-heading font-bold text-center mb-8 ">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl tracking-wider font-heading font-bold text-center mb-8">
           Who am I?
         </h2>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -21,54 +41,42 @@ function About() {
             />
           </div>
           <div className="w-full md:w-1/2">
-            <p className="mb-4 leading-relaxed">
-              <span className="block font-bold text-lg">
-                Hi there! My name is Glenn, and I&apos;m a front-end developer.
-              </span>
-              I have a passion for crafting beautiful and functional web
-              experiences.
-              <span className="block mt-2">
-                Having completed my studies in Frontend Development at Noroff,
-                I’ve built a good foundation in HTML, CSS, JavaScript, Tailwind,
-                and React.
-              </span>
-              <span className="block mt-2">
-                I’m always eager to learn, explore new technologies, and take on
-                exciting challenges. Below, you&apos;ll find some of my
-                projects—each representing a step in my journey, as they were
-                some of my school assignments.
-              </span>
-              <span className="block mt-2 font-semibold">
-                I&apos;m currently looking for opportunities to bring my
-                problem-solving skills to a team that values eagerness to learn.
-                If you&apos;re looking for a dedicated front-end developer with
-                a curious mindset, let’s connect!
-              </span>
-            </p>
+            <motion.p
+              className="text-lg font-body leading-relaxed"
+              variants={textVariants}
+              initial="hidden"
+              animate="visible"
+            >
+              {text.split("").map((char, index) => (
+                <motion.span key={index} variants={letterVariants}>
+                  {char}
+                </motion.span>
+              ))}
+            </motion.p>
 
             <div className="flex justify-center">
               <ul className="flex pt-6 gap-4 text-3xl">
                 <li>
-                  <FaHtml5 className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out " />
+                  <FaHtml5 className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out" />
                 </li>
                 <li>
-                  <FaCss3Alt className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#1572B6] transition-all ease-in-out " />
+                  <FaCss3Alt className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#1572B6] transition-all ease-in-out" />
                 </li>
                 <li>
-                  <FaJs className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#F7DF1E] transition-all ease-in-out " />
+                  <FaJs className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#F7DF1E] transition-all ease-in-out" />
                 </li>
                 <li>
-                  <FaReact className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#61DAFB] transition-all ease-in-out " />
+                  <FaReact className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#61DAFB] transition-all ease-in-out" />
                 </li>
                 <li>
-                  <RiTailwindCssFill className="opacity-60  hover:opacity-100 hover:scale-110 hover:text-[#06B6D4] transition-all ease-in-out " />
+                  <RiTailwindCssFill className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#06B6D4] transition-all ease-in-out" />
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
