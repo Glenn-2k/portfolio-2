@@ -9,7 +9,7 @@ function About() {
       className="bg-slate-800 text-white w-full min-h-screen flex flex-col items-center justify-center"
     >
       <div className="container mx-auto px-4 ">
-        <h2 className="text-3xl font-heading tracking-wider  font-bold text-center mb-8 ">
+        <h2 className="text-3xl  tracking-wider font-heading font-bold text-center mb-8 ">
           Who am I?
         </h2>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -21,7 +21,7 @@ function About() {
             />
           </div>
           <div className="w-full md:w-1/2">
-            <p className="mb-4 leading-relaxed font-body">
+            <p className="mb-4 leading-relaxed">
               <span className="block font-bold text-lg">
                 Hi there! My name is Glenn, and I&apos;m a front-end developer.
               </span>

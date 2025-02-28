@@ -3,11 +3,10 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      scrollBehavior: ["smooth"],
-    },
-    fontFamily: {
-      heading: ["raleway", "sans-serif"],
-      body: ["lato", "sans-serif"],
+      fontFamily: {
+        heading: ["Raleway", "sans-serif"],
+        body: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],

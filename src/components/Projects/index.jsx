@@ -10,7 +10,9 @@ function Projects() {
       className="bg-slate-600 text-white min-h-screen  w-full flex flex-col justify-center"
     >
       <div className="container mx-auto px-4 pb-4 ">
-        <h2 className="text-3xl font-bold text-center my-8">Projects</h2>
+        <h2 className="text-3xl font-bold tracking-wider text-center my-8">
+          Projects
+        </h2>
         <div className="grid grid-cols-1  lg:grid-cols-3 gap-8  max-w-5xl mx-auto">
           <Projectcard
             image={biddable}
