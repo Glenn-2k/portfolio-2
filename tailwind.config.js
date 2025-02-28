@@ -5,6 +5,10 @@ export default {
     extend: {
       scrollBehavior: ["smooth"],
     },
+    fontFamily: {
+      heading: ["raleway", "sans-serif"],
+      body: ["lato", "sans-serif"],
+    },
   },
   plugins: [],
 };

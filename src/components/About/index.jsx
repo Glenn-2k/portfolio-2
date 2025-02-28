@@ -9,7 +9,9 @@ function About() {
       className="bg-slate-800 text-white w-full min-h-screen flex flex-col items-center justify-center"
     >
       <div className="container mx-auto px-4 ">
-        <h2 className="text-3xl font-bold text-center mb-8">Who am I?</h2>
+        <h2 className="text-3xl font-heading tracking-wider  font-bold text-center mb-8 ">
+          Who am I?
+        </h2>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
           <div className="w-full md:w-1/2">
             <img
@@ -20,15 +22,30 @@ function About() {
           </div>
           <div className="w-full md:w-1/2">
             <p className="mb-4 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              tincidunt, erat in sollicitudin fermentum, odio libero condimentum
-              metus, et vehicula nunc nunc sit amet libero. Curabitur nec ex nec
-              eros tincidunt finibus. Donec nec consectetur libero. Nullam ut
-              nunc nec nunc tincidunt fermentum. Nulla facilisi. Proin ut
-              lacinia nunc. Cras vestibulum, felis nec ultrices ultricies, erat
-              libero condimentum nunc, ac luctus nunc nunc ac justo. Nullam
-              consectetur, nunc nec ultricies tristique, nunc nunc
+              <span className="block font-bold text-lg">
+                Hi there! My name is Glenn, and I&apos;m a front-end developer.
+              </span>
+              I have a passion for crafting beautiful and functional web
+              experiences.
+              <span className="block mt-2">
+                Having completed my studies in Frontend Development at Noroff,
+                I’ve built a good foundation in HTML, CSS, JavaScript, Tailwind,
+                and React.
+              </span>
+              <span className="block mt-2">
+                I’m always eager to learn, explore new technologies, and take on
+                exciting challenges. Below, you&apos;ll find some of my
+                projects—each representing a step in my journey, as they were
+                some of my school assignments.
+              </span>
+              <span className="block mt-2 font-semibold">
+                I&apos;m currently looking for opportunities to bring my
+                problem-solving skills to a team that values eagerness to learn.
+                If you&apos;re looking for a dedicated front-end developer with
+                a curious mindset, let’s connect!
+              </span>
             </p>
+
             <div className="flex justify-center">
               <ul className="flex pt-6 gap-4 text-3xl">
                 <li>
