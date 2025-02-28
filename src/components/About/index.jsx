@@ -21,7 +21,7 @@ function About() {
             />
           </div>
           <div className="w-full md:w-1/2">
-            <p className="mb-4 leading-relaxed">
+            <p className="mb-4 leading-relaxed font-body">
               <span className="block font-bold text-lg">
                 Hi there! My name is Glenn, and I&apos;m a front-end developer.
               </span>
