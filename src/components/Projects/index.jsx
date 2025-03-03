@@ -16,7 +16,7 @@ function Projects() {
     >
       <section
         id="projects"
-        className="bg-gradient-to-b from-slate-800 to-slate-700 text-white min-h-screen  w-full flex flex-col justify-center"
+        className="bg-gradient-to-b from-slate-800 to-slate-700 text-white min-h-screen  w-full flex flex-col justify-center pb-8"
       >
         <div className="container mx-auto px-4 pb-4 ">
           <h2 className="text-3xl font-bold tracking-wider text-center my-8">
