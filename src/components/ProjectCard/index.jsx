@@ -20,7 +20,7 @@ function Projectcard({ project, image, description, liveUrl, repoUrl }) {
       viewport={{ once: true }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className="hover:shadow-2xl transition ease-in-out rounded-2xl p-6 flex flex-col items-center text-center  max-w-sm mx-auto">
+      <div className=" transition-transform duration-300 hover:shadow-2xl hover:scale-105  rounded-2xl p-6 flex flex-col items-center text-center  max-w-sm mx-auto">
         <img src={image} className="w-full h-40  bg-red-500 rounded-lg mb-4" />
         <h3 className="text-xl font-bold mb-2">{project}</h3>
         <p className="text-sm">{description}</p>

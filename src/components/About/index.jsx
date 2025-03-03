@@ -35,7 +35,7 @@ function About() {
   return (
     <motion.section
       id="about"
-      className="bg-slate-800 text-white w-full min-h-screen flex flex-col items-center justify-center"
+      className="bg-gradient-to-b from-slate-800 to-slate-700 text-white w-full min-h-screen flex flex-col items-center justify-center"
       initial="hidden"
       animate="visible"
       transition={{ duration: 1, ease: "easeOut" }}
@@ -49,7 +49,7 @@ function About() {
             <img
               src="https://avatars.githubusercontent.com/u/128032061?v=4"
               alt="Image of me"
-              className="rounded-full mb-12 mx-auto max-w-3xs"
+              className="rounded-full mb-12 mx-auto max-w-3xs shadow-xl shadow-blue-500/20"
             />
           </div>
           <div className="w-full md:w-1/2">
