@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
@@ -22,7 +23,11 @@ function Contact() {
             </a>
           </p>
           <p className="text-center">You can also find me on </p>
-          <div className="flex text-3xl pt-4 justify-evenly">
+          <motion.div
+            className="flex text-3xl pt-4 justify-between w-20"
+            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.1 }}
+          >
             <a
               href="https://www.linkedin.com/in/glennkristiansen"
               target="blank"
@@ -37,7 +42,7 @@ function Contact() {
             >
               <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
             </a>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
