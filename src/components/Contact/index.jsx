@@ -17,7 +17,7 @@ function Contact() {
             at{" "}
             <a
               href="mailto:glenn.andre.kristiansen@gmail.com"
-              className="text-blue-400"
+              className=" font-medium underline hover:text-neutral-400 transition-colors"
             >
               Glenn.andre.kristiansen@gmail.com
             </a>
