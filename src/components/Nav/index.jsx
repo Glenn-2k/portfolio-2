@@ -8,12 +8,12 @@ function Navbar() {
   return (
     <nav>
       {/* Desktop Navigation */}
-      <div className="hidden md:flex gap-8">
+      <div className="hidden md:flex gap-8 text-gray-300">
         <Link
           to="about"
           smooth={true}
           duration={500}
-          className="cursor-pointer hover:text-blue-400"
+          className="cursor-pointer hover:text-blue-400 hover:underline"
         >
           About
         </Link>
@@ -21,7 +21,7 @@ function Navbar() {
           to="projects"
           smooth={true}
           duration={500}
-          className="cursor-pointer hover:text-blue-400"
+          className="cursor-pointer hover:text-blue-400 hover:underline"
         >
           Projects
         </Link>
@@ -29,7 +29,7 @@ function Navbar() {
           to="contact"
           smooth={true}
           duration={500}
-          className="cursor-pointer hover:text-blue-400"
+          className="cursor-pointer hover:text-blue-400 hover:underline"
         >
           Contact
         </Link>
