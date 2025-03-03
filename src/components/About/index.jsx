@@ -35,7 +35,7 @@ function About() {
   return (
     <motion.section
       id="about"
-      className="bg-gradient-to-b from-slate-800 to-slate-700 text-white w-full min-h-screen flex flex-col items-center justify-center"
+      className="bg-gradient-to-b from-slate-800 to-slate-700 text-white  w-full min-h-screen flex flex-col items-center justify-center"
       initial="hidden"
       animate="visible"
       transition={{ duration: 1, ease: "easeOut" }}

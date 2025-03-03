@@ -14,13 +14,13 @@ Projectcard.propTypes = {
 function Projectcard({ project, image, description, liveUrl, repoUrl }) {
   return (
     <motion.div
-      className=" rounded-2xl p-6 flex flex-col items-center text-center"
+      className=" rounded-2xl px-0 md:p-6 flex flex-col items-center text-center"
       initial={{ opacity: 0, x: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className=" transition-transform duration-300 hover:shadow-2xl hover:scale-105  rounded-2xl p-6 flex flex-col items-center text-center  max-w-sm mx-auto">
+      <div className=" transition-transform duration-300 hover:shadow-2xl hover:scale-105  rounded-2xl p-6 flex flex-col justify-between items-center text-center sm:h-80 md:h-100  max-w-80 mx-auto">
         <img src={image} className="w-full h-40  bg-red-500 rounded-lg mb-4" />
         <h3 className="text-xl font-bold mb-2">{project}</h3>
         <p className="text-sm">{description}</p>
