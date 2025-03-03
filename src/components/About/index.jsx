@@ -14,7 +14,7 @@ const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.6 }, // Delays between paragraphs
+    transition: { staggerChildren: 0.9 },
   },
 };
 
