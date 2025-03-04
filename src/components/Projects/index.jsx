@@ -10,8 +10,8 @@ function Projects() {
       id="projects"
       className="bg-slate-600 text-white min-h-screen w-full flex flex-col justify-center"
       initial={{ opacity: 0, y: 50 }}
-      whileInView={{ opacity: 1, y: 0 }} // Animates when it enters the viewport
-      viewport={{ once: true, amount: 0.2 }} // Triggers when 20% is visible
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.4 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <section
