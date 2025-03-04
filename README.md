@@ -14,7 +14,7 @@ We were tasked with creating a portfolio website documenting three of our prior 
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+The tech stach I've used in addition to HTML is
 
 - [React.js](https://reactjs.org/)
 - [Tailwind](https://tailwindcss.com)
@@ -22,8 +22,6 @@ You can list a the tech stack that you've used over here
 ## Getting Started
 
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
@@ -47,6 +45,6 @@ npm run dev
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+Please reach out on my LinkedIn or right here on GitHub!
 
 [My LinkedIn page](www.linkedin.com/in/glennkristiansen)
