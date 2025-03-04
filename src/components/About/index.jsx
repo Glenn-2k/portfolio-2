@@ -49,7 +49,7 @@ function About() {
             <img
               src="https://avatars.githubusercontent.com/u/128032061?v=4"
               alt="Image of me"
-              className="rounded-full mb-12 mx-auto max-w-3xs shadow-xl shadow-blue-500/20"
+              className="rounded-full mb-12 md:mb-24 mx-auto max-w-3xs shadow-xl shadow-blue-500/20"
             />
           </div>
           <div className="w-full md:w-1/2">
