@@ -73,19 +73,34 @@ function About() {
             <div className="flex justify-center my-8">
               <ul className="flex pt-6 gap-4 text-3xl">
                 <li>
-                  <FaHtml5 className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out" />
+                  <FaHtml5
+                    className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#E34F26] transition-all ease-in-out"
+                    aria-label="html icon"
+                  />
                 </li>
                 <li>
-                  <FaCss3Alt className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#1572B6] transition-all ease-in-out" />
+                  <FaCss3Alt
+                    className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#1572B6] transition-all ease-in-out"
+                    aria-label="css icon"
+                  />
                 </li>
                 <li>
-                  <FaJs className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#F7DF1E] transition-all ease-in-out" />
+                  <FaJs
+                    className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#F7DF1E] transition-all ease-in-out"
+                    aria-label="js icon"
+                  />
                 </li>
                 <li>
-                  <FaReact className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#61DAFB] transition-all ease-in-out" />
+                  <FaReact
+                    className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#61DAFB] transition-all ease-in-out"
+                    aria-label="react icon"
+                  />
                 </li>
                 <li>
-                  <RiTailwindCssFill className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#06B6D4] transition-all ease-in-out" />
+                  <RiTailwindCssFill
+                    className="opacity-60 hover:opacity-100 hover:scale-110 hover:text-[#06B6D4] transition-all ease-in-out"
+                    aria-label="tailwind icon"
+                  />
                 </li>
               </ul>
             </div>
