@@ -30,14 +30,20 @@ function Projectcard({ project, image, description, liveUrl, repoUrl }) {
             target="blank"
             className="text-gray-100 cursor-pointer capitalize text-xl"
           >
-            <FaExternalLinkAlt className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+            <FaExternalLinkAlt
+              className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out "
+              aria-label="live demo icon"
+            />
           </a>
           <a
             href={repoUrl}
             target="blank"
             className="text-gray-100 cursor-pointer text-xl capitalize"
           >
-            <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+            <FaGithub
+              className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out "
+              aria-label="github repo icon"
+            />
           </a>
         </div>
       </div>
