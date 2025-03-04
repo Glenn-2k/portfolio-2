@@ -7,7 +7,6 @@ function Navbar() {
 
   return (
     <nav>
-      {/* Desktop Navigation */}
       <div className="hidden md:flex gap-8 text-gray-300">
         <Link
           to="about"
@@ -35,7 +34,6 @@ function Navbar() {
         </Link>
       </div>
 
-      {/* Mobile Hamburger Menu */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden text-2xl ml-4"
@@ -43,7 +41,6 @@ function Navbar() {
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-16 left-0 bg-slate-700 w-full shadow-md flex flex-col items-center space-y-4 py-6">
           <Link
