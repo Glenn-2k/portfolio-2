@@ -33,14 +33,20 @@ function Contact() {
               target="blank"
               className="text-[#0A66C2]"
             >
-              <FaLinkedin className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+              <FaLinkedin
+                className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out "
+                aria-label="linkedin icon with link"
+              />
             </a>
             <a
               href="https://github.com/Glenn-2k"
               target="blank"
               className="text-[#F6F8FA]"
             >
-              <FaGithub className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out " />
+              <FaGithub
+                className="opacity-60  hover:opacity-100 hover:scale-110 transition-all ease-in-out "
+                aria-label="github icon with link"
+              />
             </a>
           </motion.div>
         </div>
