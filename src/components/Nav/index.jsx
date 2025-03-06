@@ -37,6 +37,7 @@ function Navbar() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="md:hidden text-2xl ml-4"
+        aria-label={isOpen ? "Close menu" : "Open menu"}
       >
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
